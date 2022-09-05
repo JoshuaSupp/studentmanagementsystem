@@ -1,10 +1,10 @@
 import React from "react";
-import { ReactComponent as Logo } from "../../assets/instagram.svg";
+import { ReactComponent as Logo } from "../../assets/loginpic.svg";
 import "./login.css";
 class Login extends React.Component {
   state = {
-    email: "",
-    pwd: "",
+    email: "joshuasupp@gmail",
+    pwd: "123",
   };
 
   handleChange = (e) => {
@@ -19,6 +19,7 @@ class Login extends React.Component {
   render() {
     return (
       <div className="div-login">
+        <Logo />
         <div className="div-login-logo"></div>
         <div>
           <form onSubmit={this.handleSubmit}>
