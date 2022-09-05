@@ -3,7 +3,7 @@ import "./App.css";
 
 function Sidebar() {
   return (
-  <div> sdsds </div>
+  <div>  </div>
   )
 }
 
