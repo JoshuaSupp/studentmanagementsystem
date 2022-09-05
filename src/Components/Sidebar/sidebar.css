@@ -1,15 +1,15 @@
 .App {
+  background-color: black;
+}
+body {
+  margin: 0;
+  padding: 0;
   width: 100vw;
   height: 100vh;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .Sidebar {
-  width: 100%;
+  width: 300px;
   height: 100%;
   background-color: black;
 }
