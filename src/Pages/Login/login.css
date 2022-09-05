@@ -1,3 +1,6 @@
+body{
+    background: linear-gradient(120deg, #2980b9, #8e44ad );
+}
 .div-login{
     width:200px;
     height:300px;
@@ -26,6 +29,7 @@ input{
     border-radius: 5px;
     background-color: #fafafa;
     box-shadow: none;
+    font: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
