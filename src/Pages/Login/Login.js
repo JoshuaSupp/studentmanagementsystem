@@ -20,7 +20,7 @@ class Login extends React.Component{
         return(
             <div className='div-login'>
                 <div className='div-login-logo'>
-                    
+                    <Logo/>
                 </div>
                 <div>
                     <form onSubmit = {this.handleSubmit}>
