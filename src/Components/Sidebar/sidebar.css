@@ -1,8 +1,15 @@
-.Sidebar {
+.App {
   width: 100vw;
   height: 100vh;
 }
 
 body {
-  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  margin: 0;
+  padding: 0;
+}
+
+.Sidebar {
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
