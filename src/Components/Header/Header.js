@@ -12,24 +12,14 @@ const Header = ({ history, isLogged }) => {
   return (
     <nav>
       <div className="div-header">
-        <div className="div-svg" onClick={() => history.push("/")}></div>   //Logo
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-          }}
-        >
-          <NavLink exact to="/" activeClassName="active">
-            <Home className="div-svg" />
-          </NavLink>
-          <NavLink exact to="/explore" activeClassName="active">
-            <Explore className="div-svg" />
-          </NavLink>
-          <button className="button-header" onClick={handleClick}>
-            Log out
-          </button>
-        </div>
+        <div className="logo-svg" onClick={() => history.push("/")}></div>
+
+        <NavLink exact to="/" activeClassName="active">
+          <Home className="div-svg" />
+        </NavLink>
+        <button className="button-header" onClick={handleClick}>
+          Log out
+        </button>
       </div>
     </nav>
   );
