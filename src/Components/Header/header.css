@@ -1,26 +1,24 @@
 nav {
-  height: 55px;
+  height: 50px;
 }
 
 .div-header {
-  width: 90%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   display: flex;
-
+  flex-direction: row;
   align-items: center;
 }
-
 .div-svg {
   height: 30px;
   width: 30px;
   padding: 0 20;
-  margin-right: 1000px;
-  align-items: center;
 }
 .active {
   border-bottom: 2px solid firebrick;
 }
 .button-header {
-  width: 200px;
+  width: 100px;
+  margin-left: 900px;
 }

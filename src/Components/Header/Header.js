@@ -12,7 +12,7 @@ const Header = ({ history, isLogged }) => {
   return (
     <nav>
       <div className="div-header">
-        <div className="logo-svg" onClick={() => history.push("/")}></div>
+        <div className="div-svg" onClick={() => history.push("/")}></div>
 
         <NavLink exact to="/" activeClassName="active">
           <Home className="div-svg" />
