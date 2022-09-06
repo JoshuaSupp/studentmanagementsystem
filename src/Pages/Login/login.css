@@ -13,13 +13,13 @@
 }
 
 .div-login-logo {
-  height: 50px;
+  height: 100px;
   width: 50px;
   align-self: center;
 }
 
 input {
-  width: 60%;
+  width: 80%;
   border: 1px solid #dbdbdb;
   padding: 5px;
   margin: 2px 0;
@@ -29,8 +29,8 @@ input {
   font-family: "Open Sans Condensed", sans-serif;
 }
 
-button {
-  width: 100%;
+.loginbutton {
+  width: 70%;
   margin: 5px 0;
   background-color: dodgerblue;
   font-family: "Open Sans Condensed", sans-serif;
@@ -40,4 +40,9 @@ button {
   color: white;
   border-radius: 5px;
   font-size: 20px;
+  margin-left: 10px;
+}
+.loginform {
+  margin-left: 40px;
+  margin-bottom: 10px;
 }

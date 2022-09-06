@@ -22,7 +22,7 @@ class Login extends React.Component {
         <Logo />
         <div className="div-login-logo"></div>
         <div>
-          <form onSubmit={this.handleSubmit}>
+          <form class="loginform" onSubmit={this.handleSubmit}>
             <input
               type="email"
               name="email"
@@ -37,7 +37,7 @@ class Login extends React.Component {
               required
               onChange={this.handleChange}
             />
-            <button onSubmit={this.handleSubmit}>Log In</button>
+            <button class="loginbutton" onSubmit={this.handleSubmit}>Log In</button>
           </form>
         </div>
       </div>
