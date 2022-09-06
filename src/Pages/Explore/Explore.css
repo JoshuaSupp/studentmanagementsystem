@@ -48,3 +48,7 @@ form * {
   font-size: 20px;
   margin-left: 10px;
 }
+
+.explorebody {
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+}
