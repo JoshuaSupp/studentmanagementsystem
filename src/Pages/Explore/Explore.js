@@ -2,8 +2,8 @@ import React, { useState, Fragment } from "react";
 import { nanoid } from "nanoid";
 import "./Explore.css";
 import data from "./mock-data.json";
-import ReadOnlyRow from "./components/ReadOnlyRow";
-import EditableRow from "./components/EditableRow";
+import ReadOnlyRow from "./ReadOnlyRow";
+import EditableRow from "./EditableRow";
 
 const Explore = () => {
   const [contacts, setContacts] = useState(data);
