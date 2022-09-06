@@ -19,10 +19,10 @@ const EditableRow = ({
       </td>
       <td>
         <input
-          type="text"
+          type="password"
           required="required"
-          placeholder="Enter an address..."
-          name="address"
+          placeholder="Enter Your Password..."
+          name="password"
           value={editFormData.address}
           onChange={handleEditFormChange}
         ></input>
