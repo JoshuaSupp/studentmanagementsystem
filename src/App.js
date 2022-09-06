@@ -1,10 +1,8 @@
 import React from "react";
-import { Switch, Route, Router } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Login from "./Pages/Login/Login";
 import Home from "./Pages/Home/Home";
 import NoMatch from "./Pages/404Page/404Page";
-import Sidebar from "./Components/Sidebar/Sidebar";
-import Users from "./Pages/Users/Users";
 
 class App extends React.Component {
   state = {
