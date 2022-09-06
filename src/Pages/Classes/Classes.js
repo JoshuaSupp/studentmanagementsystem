@@ -6,20 +6,20 @@ import EditableRow from "../EditableRow";
 import ReadOnlyRow from "../ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
-const Classes = () => {
+const Explore = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
-    fullName: "",
-    password: "",
-    phoneNumber: "",
-    email: "",
+    classname: "",
+    studentnumber: "",
+    status: "",
+    startdate: "",
   });
 
   const [editFormData, setEditFormData] = useState({
-    fullName: "",
-    password: "",
-    phoneNumber: "",
-    email: "",
+    classname: "",
+    studentnumber: "",
+    status: "",
+    startdate: "",
   });
 
   const [editContactId, setEditContactId] = useState(null);
@@ -53,10 +53,10 @@ const Classes = () => {
 
     const newContact = {
       id: nanoid(),
-      fullName: addFormData.fullName,
-      password: addFormData.address,
-      phoneNumber: addFormData.phoneNumber,
-      email: addFormData.email,
+      classname: addFormData.classname,
+      studentnumber: addFormData.studentnumber,
+      status: addFormData.status,
+      startdate: addFormData.startdate,
     };
 
     const newContacts = [...contacts, newContact];
@@ -68,10 +68,10 @@ const Classes = () => {
 
     const editedContact = {
       id: editContactId,
-      fullName: editFormData.fullName,
-      password: editFormData.address,
-      phoneNumber: editFormData.phoneNumber,
-      email: editFormData.email,
+      classname: editFormData.classname,
+      studentnumber: editFormData.studentnumber,
+      status: editFormData.status,
+      startdate: editFormData.startdate,
     };
 
     const newContacts = [...contacts];
@@ -89,10 +89,10 @@ const Classes = () => {
     setEditContactId(contact.id);
 
     const formValues = {
-      fullName: contact.fullName,
-      password: contact.address,
-      phoneNumber: contact.phoneNumber,
-      email: contact.email,
+      classname: contact.classname,
+      studentnumber: contact.studentnumber,
+      status: contact.status,
+      startdate: contact.startdate,
     };
 
     setEditFormData(formValues);
@@ -115,16 +115,17 @@ const Classes = () => {
   return (
     <div>
       <Sidebar />
+
       <div class="explorebody">
         <div className="app-container">
           <form onSubmit={handleEditFormSubmit}>
             <table>
               <thead>
                 <tr>
-                  <th>Name</th>
-                  <th>Password</th>
+                  <th>Class Name</th>
+                  <th>Student Number</th>
                   <th>Phone Number</th>
-                  <th>Email</th>
+                  <th>Status</th>
                   <th>Actions</th>
                 </tr>
               </thead>
@@ -192,4 +193,4 @@ const Classes = () => {
   );
 };
 
-export default Classes;
+export default Explore;
