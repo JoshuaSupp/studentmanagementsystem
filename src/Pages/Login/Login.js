@@ -37,7 +37,9 @@ class Login extends React.Component {
               required
               onChange={this.handleChange}
             />
-            <button class="loginbutton" onSubmit={this.handleSubmit}>Log In</button>
+            <button class="loginbutton" onSubmit={this.handleSubmit}>
+              Log In
+            </button>
           </form>
         </div>
       </div>
