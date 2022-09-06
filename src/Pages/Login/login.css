@@ -41,12 +41,14 @@ input {
   border-radius: 5px;
   font-size: 20px;
   margin-left: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .loginform {
   margin-left: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  align-items: center;
 }
 body {
   background: linear-gradient(black, #3325f2, #25b4f2);
+  margin-bottom: 0px;
 }
