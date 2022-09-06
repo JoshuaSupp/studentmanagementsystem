@@ -176,7 +176,7 @@ const Explore = () => {
           placeholder="Enter an email..."
           onChange={handleAddFormChange}
         />
-        <button type="submit">Add</button>
+        <button class="addbutton" type="submit">Add</button>
       </form>
     </div>
   );
