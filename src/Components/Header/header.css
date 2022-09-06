@@ -1,5 +1,7 @@
 nav {
   height: 50px;
+
+  background: linear-gradient(#3187de, #27cbe5, #0f9aaf);
 }
 
 .div-header {
@@ -21,7 +23,7 @@ nav {
 .button-header {
   width: 10%;
   margin: 5px 0;
-  background-color: dodgerblue;
+  background-color: black;
   font-family: "Open Sans Condensed", sans-serif;
   padding: 5px;
   font-weight: 900;
