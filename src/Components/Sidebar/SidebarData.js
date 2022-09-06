@@ -12,13 +12,13 @@ export const SidebarData = [
   },
   {
     title: "Users",
-    path: "/Users",
+    path: "/Explore",
     icon: <FiIcons.FiUsers />,
     cName: "nav-text",
   },
   {
     title: "Classes",
-    path: "/Users",
+    path: "/Classes",
     icon: <AiIcons.AiOutlineLaptop />,
     cName: "nav-text",
   },
