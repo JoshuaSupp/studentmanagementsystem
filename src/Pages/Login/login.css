@@ -19,7 +19,7 @@
 }
 
 input {
-  width: 95%;
+  width: 60%;
   border: 1px solid #dbdbdb;
   padding: 5px;
   margin: 2px 0;
@@ -30,7 +30,7 @@ input {
 }
 
 button {
-  width: 100%;
+  width: 50%;
   margin: 5px 0;
   background-color: dodgerblue;
   font-family: "Open Sans Condensed", sans-serif;
