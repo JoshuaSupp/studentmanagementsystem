@@ -22,6 +22,7 @@ class Login extends React.Component {
         <Logo />
         <div className="div-login-logo"></div>
         <div>
+          <h2 class="heading"> Login </h2>
           <form class="loginform" onSubmit={this.handleSubmit}>
             <input
               type="email"

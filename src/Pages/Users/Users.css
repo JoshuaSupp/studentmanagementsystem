@@ -46,8 +46,8 @@ form * {
   color: white;
   border-radius: 5px;
   font-size: 20px;
-  margin-left: 10px;
-  margin-top: 1%;
+  margin-left: 0px;
+  margin-top: 8px;
   margin-bottom: 5%;
 }
 
@@ -61,4 +61,9 @@ form * {
   margin-bottom: 0px;
   color: white;
   font-style: bold;
+}
+.adminform input {
+  width: 50%;
+  margin-bottom: 0px;
+  margin-top: 2px;
 }
