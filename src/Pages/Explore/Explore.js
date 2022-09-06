@@ -9,14 +9,14 @@ const Explore = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
     fullName: "",
-    address: "",
+    password: "",
     phoneNumber: "",
     email: "",
   });
 
   const [editFormData, setEditFormData] = useState({
     fullName: "",
-    address: "",
+    password: "",
     phoneNumber: "",
     email: "",
   });
@@ -53,7 +53,7 @@ const Explore = () => {
     const newContact = {
       id: nanoid(),
       fullName: addFormData.fullName,
-      address: addFormData.address,
+      password: addFormData.address,
       phoneNumber: addFormData.phoneNumber,
       email: addFormData.email,
     };
@@ -68,7 +68,7 @@ const Explore = () => {
     const editedContact = {
       id: editContactId,
       fullName: editFormData.fullName,
-      address: editFormData.address,
+      password: editFormData.address,
       phoneNumber: editFormData.phoneNumber,
       email: editFormData.email,
     };
@@ -89,7 +89,7 @@ const Explore = () => {
 
     const formValues = {
       fullName: contact.fullName,
-      address: contact.address,
+      password: contact.address,
       phoneNumber: contact.phoneNumber,
       email: contact.email,
     };
@@ -119,7 +119,7 @@ const Explore = () => {
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Address</th>
+                <th>Password</th>
                 <th>Phone Number</th>
                 <th>Email</th>
                 <th>Actions</th>
@@ -157,10 +157,10 @@ const Explore = () => {
             onChange={handleAddFormChange}
           />
           <input
-            type="text"
-            name="address"
+            type="password"
+            name="password"
             required="required"
-            placeholder="Enter an addres..."
+            placeholder="Enter Your Password..."
             onChange={handleAddFormChange}
           />
           <input
