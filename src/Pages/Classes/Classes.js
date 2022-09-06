@@ -124,8 +124,8 @@ const Explore = () => {
                 <tr>
                   <th>Class Name</th>
                   <th>Student Number</th>
-                  <th>Phone Number</th>
                   <th>Status</th>
+                  <th>Start Date</th>
                   <th>Actions</th>
                 </tr>
               </thead>
@@ -156,30 +156,30 @@ const Explore = () => {
             <div class="adminform">
               <input
                 type="text"
-                name="fullName"
+                name="classname"
                 required="required"
-                placeholder="Enter a name..."
+                placeholder="Enter Class Name..."
                 onChange={handleAddFormChange}
               />
               <input
-                type="password"
-                name="password"
+                type="number"
+                name="studentnumber"
                 required="required"
-                placeholder="Enter Your Password..."
+                placeholder="Enter Number Of Students..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="text"
-                name="phoneNumber"
+                name="status"
                 required="required"
-                placeholder="Enter a phone number..."
+                placeholder="Enter Class Status..."
                 onChange={handleAddFormChange}
               />
               <input
-                type="email"
-                name="email"
+                type="startdate"
+                name="startdate"
                 required="required"
-                placeholder="Enter an email..."
+                placeholder="Enter Class Start Date..."
                 onChange={handleAddFormChange}
               />
             </div>
