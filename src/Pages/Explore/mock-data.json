@@ -19,5 +19,12 @@
     "password": "",
     "phoneNumber": "788-962-7516",
     "email": "tony.frank@email.com"
+  },
+  {
+    "id": 4,
+    "fullName": "Joshua Suppiah",
+    "password": "",
+    "phoneNumber": "777-654-7102",
+    "email": "joshuasupp@gmail.com"
   }
 ]

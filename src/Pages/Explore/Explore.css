@@ -35,7 +35,7 @@ form * {
   font-size: 20px;
 }
 .addbutton {
-  width: 10%;
+  width: 20%;
   height: 10%;
   margin: 5px 0;
   background-color: dodgerblue;
@@ -47,6 +47,8 @@ form * {
   border-radius: 5px;
   font-size: 20px;
   margin-left: 10px;
+  margin-top: 1%;
+  margin-bottom: 5%;
 }
 
 .explorebody {
