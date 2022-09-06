@@ -11,18 +11,18 @@ const EditableRow = ({
         <input
           type="text"
           required="required"
-          placeholder="Enter a name..."
-          name="fullName"
+          placeholder="Enter Class Name..."
+          name="classname"
           value={editFormData.fullName}
           onChange={handleEditFormChange}
         ></input>
       </td>
       <td>
         <input
-          type="password"
+          type="number"
           required="required"
-          placeholder="Enter Your Password..."
-          name="password"
+          placeholder="Enter Number Of Students..."
+          name="studentnumber"
           value={editFormData.address}
           onChange={handleEditFormChange}
         ></input>
@@ -31,18 +31,18 @@ const EditableRow = ({
         <input
           type="text"
           required="required"
-          placeholder="Enter a phone number..."
-          name="phoneNumber"
+          placeholder="Enter Class Status..."
+          name="status"
           value={editFormData.phoneNumber}
           onChange={handleEditFormChange}
         ></input>
       </td>
       <td>
         <input
-          type="email"
+          type="text"
           required="required"
-          placeholder="Enter an email..."
-          name="email"
+          placeholder="Enter Class Start Date..."
+          name="startdate"
           value={editFormData.email}
           onChange={handleEditFormChange}
         ></input>
