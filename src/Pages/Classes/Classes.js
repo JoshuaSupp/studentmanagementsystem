@@ -2,11 +2,11 @@ import React, { useState, Fragment } from "react";
 import { nanoid } from "nanoid";
 import data from "./mock-data.json";
 import "./Classes.css";
-import EditableRow from "../EditableRow";
-import ReadOnlyRow from "../ReadOnlyRow";
+import EditableRow from "./EditableRow";
+import ReadOnlyRow from "./ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
-const Explore = () => {
+const Classes = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
     classname: "",
@@ -193,4 +193,4 @@ const Explore = () => {
   );
 };
 
-export default Explore;
+export default Classes;
