@@ -12,7 +12,7 @@ export const SidebarData = [
   },
   {
     title: "Users",
-    path: "/Explore",
+    path: "/Users",
     icon: <FiIcons.FiUsers />,
     cName: "nav-text",
   },
