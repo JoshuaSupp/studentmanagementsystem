@@ -21,6 +21,7 @@ class Login extends React.Component {
       <div className="div-login">
         <Logo />
         <div className="div-login-logo"></div>
+        <h2 class="loginname">Login</h2>
         <div>
           <form class="loginform" onSubmit={this.handleSubmit}>
             <input
