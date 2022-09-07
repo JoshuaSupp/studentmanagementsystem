@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from "react";
 import { nanoid } from "nanoid";
-import data from "./mock-data-kxe11.json";
-import "./KXStudents.css";
+import data from "./mock-data-an1e05.json";
+import "./ANStudents.css";
 import EditableRow from "./EditableRow";
 import ReadOnlyRow from "./ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
@@ -9,19 +9,19 @@ import Sidebar from "../../Components/Sidebar/Sidebar";
 const Students = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
-    kxname: "",
-    kxage: "",
-    kxclasses: "",
-    kxparentname: "",
+    anname: "",
+    anage: "",
+    anclasses: "",
+    anparentname: "",
     phone: "",
     address: "",
   });
 
   const [editFormData, setEditFormData] = useState({
-    kxname: "",
-    kxage: "",
-    kxclasses: "",
-    kxparentname: "",
+    anname: "",
+    anage: "",
+    anclasses: "",
+    anparentname: "",
     phone: "",
     address: "",
   });
@@ -57,10 +57,10 @@ const Students = () => {
 
     const newContact = {
       id: nanoid(),
-      kxname: addFormData.kxname,
-      kxage: addFormData.kxage,
-      kxclasses: addFormData.kxclasses,
-      kxparentname: addFormData.kxparentname,
+      anname: addFormData.anname,
+      anage: addFormData.anage,
+      anclasses: addFormData.anclasses,
+      anparentname: addFormData.anparentname,
       phone: addFormData.phone,
       address: addFormData.address,
     };
@@ -74,10 +74,10 @@ const Students = () => {
 
     const editedContact = {
       id: editContactId,
-      kxname: editFormData.kxname,
-      kxage: editFormData.kxage,
-      kxclasses: editFormData.kxclasses,
-      kxparentname: editFormData.kxparentname,
+      anname: editFormData.anname,
+      anage: editFormData.anage,
+      anclasses: editFormData.anclasses,
+      anparentname: editFormData.anparentname,
       phone: editFormData.phone,
       address: editFormData.address,
     };
@@ -97,10 +97,10 @@ const Students = () => {
     setEditContactId(contact.id);
 
     const formValues = {
-      kxname: contact.kxname,
-      kxage: contact.kxage,
-      kxclasses: contact.kxclasses,
-      kxparentname: contact.kxparentname,
+      anname: contact.anname,
+      anage: contact.anage,
+      anclasses: contact.anclasses,
+      anparentname: contact.kxparentname,
       phone: contact.phone,
       address: contact.address,
     };
@@ -168,28 +168,28 @@ const Students = () => {
             <div class="adminform">
               <input
                 type="text"
-                name="kxname"
+                name="anname"
                 required="required"
                 placeholder="Enter Student's Name..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="number"
-                name="kxage"
+                name="anage"
                 required="required"
                 placeholder="Enter Student's Age..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="text"
-                name="kxclasses"
+                name="anclasses"
                 required="required"
                 placeholder="Enter Students's Present Classes..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="text"
-                name="kxparentname"
+                name="anparentname"
                 required="required"
                 placeholder="Enter Parent's Name..."
                 onChange={handleAddFormChange}
