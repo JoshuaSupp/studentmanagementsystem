@@ -74,9 +74,10 @@ const Students = () => {
 
     const editedContact = {
       id: editContactId,
-      teachername: editFormData.teachername,
-      age: editFormData.age,
-      classes: editFormData.classes,
+      kxname: editFormData.kxname,
+      kxage: editFormData.kxage,
+      kxclasses: editFormData.kxclasses,
+      kxparentname: editFormData.kxparentname,
       phone: editFormData.phone,
       address: editFormData.address,
     };
