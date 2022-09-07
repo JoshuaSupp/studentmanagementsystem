@@ -115,7 +115,7 @@ const Classes = () => {
   return (
     <div>
       <Sidebar />
-
+      <div class="classheadings">Classes</div>
       <div class="explorebody">
         <div className="app-container">
           <form onSubmit={handleEditFormSubmit}>
@@ -151,7 +151,7 @@ const Classes = () => {
             </table>
           </form>
 
-          <h2 class="contactheading">Add Class</h2>
+          <h2 class="addclass">Add Class</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
