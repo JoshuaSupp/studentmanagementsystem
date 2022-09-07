@@ -1,12 +1,12 @@
 import React, { useState, Fragment } from "react";
 import { nanoid } from "nanoid";
 import data from "./mock-data-kxe11.json";
-import "./Students.css";
+import "./KXStudents.css";
 import EditableRow from "./EditableRow";
 import ReadOnlyRow from "./ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
-const Students = () => {
+const KXStudents = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
     teachername: "",
@@ -156,6 +156,7 @@ const Students = () => {
               </tbody>
             </table>
           </form>
+
           <h2 class="contactheading">Add Instructor</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
@@ -208,4 +209,4 @@ const Students = () => {
   );
 };
 
-export default Students;
+export default KXStudents;

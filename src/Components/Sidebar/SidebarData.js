@@ -27,7 +27,7 @@ export const SidebarData = [
   },
   {
     title: "Students",
-    path: "/Students",
+    path: "/KXStudents",
     icon: <FaIcons.FaUserGraduate />,
     cName: "nav-text",
   },
