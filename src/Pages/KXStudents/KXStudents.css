@@ -86,4 +86,11 @@ form * {
 }
 .studentheading {
   color: white;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.kxheading {
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
 }
