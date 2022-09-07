@@ -151,7 +151,7 @@ const Classes = () => {
             </table>
           </form>
 
-          <h2 class="contactheading">Create Admin</h2>
+          <h2 class="contactheading">Add Class</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
@@ -176,7 +176,7 @@ const Classes = () => {
                 onChange={handleAddFormChange}
               />
               <input
-                type="startdate"
+                type="Date"
                 name="startdate"
                 required="required"
                 placeholder="Enter Class Start Date..."
@@ -185,6 +185,9 @@ const Classes = () => {
             </div>
             <button class="addbutton" type="submit">
               Add
+            </button>
+            <button class="clearbutton" type="reset">
+              clear
             </button>
           </form>
         </div>
