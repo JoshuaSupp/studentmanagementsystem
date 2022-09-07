@@ -6,20 +6,22 @@ import EditableRow from "./EditableRow";
 import ReadOnlyRow from "./ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
-const KXStudents = () => {
+const Students = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
-    teachername: "",
-    age: "",
-    classes: "",
+    kxname: "",
+    kxage: "",
+    kxclasses: "",
+    kxparentname: "",
     phone: "",
     address: "",
   });
 
   const [editFormData, setEditFormData] = useState({
-    teachername: "",
-    age: "",
-    classes: "",
+    kxname: "",
+    kxage: "",
+    kxclasses: "",
+    kxparentname: "",
     phone: "",
     address: "",
   });
@@ -55,9 +57,10 @@ const KXStudents = () => {
 
     const newContact = {
       id: nanoid(),
-      teachername: addFormData.teachername,
-      age: addFormData.age,
-      classes: addFormData.classes,
+      kxname: addFormData.kxname,
+      kxage: addFormData.kxage,
+      kxclasses: addFormData.kxclasses,
+      kxparentname: addFormData.kxparentname,
       phone: addFormData.phone,
       address: addFormData.address,
     };
@@ -71,9 +74,10 @@ const KXStudents = () => {
 
     const editedContact = {
       id: editContactId,
-      teachername: editFormData.teachername,
-      age: editFormData.age,
-      classes: editFormData.classes,
+      kxname: editFormData.kxname,
+      kxage: editFormData.kxage,
+      kxclasses: editFormData.kxclasses,
+      kxparentname: editFormData.kxparentname,
       phone: editFormData.phone,
       address: editFormData.address,
     };
@@ -93,9 +97,10 @@ const KXStudents = () => {
     setEditContactId(contact.id);
 
     const formValues = {
-      teachername: contact.teachername,
-      age: contact.age,
-      classes: contact.classes,
+      kxname: contact.kxname,
+      kxage: contact.kxage,
+      kxclasses: contact.kxclasses,
+      kxparentname: contact.kxparentname,
       phone: contact.phone,
       address: contact.address,
     };
@@ -123,16 +128,17 @@ const KXStudents = () => {
 
       <div class="explorebody">
         <div className="app-container">
+          <h2>KXE12</h2>
           <form onSubmit={handleEditFormSubmit}>
             <table>
               <thead>
                 <tr>
-                  <th>Instructor Name</th>
-                  <th>Age</th>
-                  <th>Current Classes</th>
+                  <th>Student Name</th>
+                  <th>Student Age</th>
+                  <th>Present Class</th>
+                  <th>Parent Name</th>
                   <th>Phone</th>
                   <th>Address</th>
-                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
@@ -156,7 +162,6 @@ const KXStudents = () => {
               </tbody>
             </table>
           </form>
-
           <h2 class="contactheading">Add Instructor</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
@@ -209,4 +214,4 @@ const KXStudents = () => {
   );
 };
 
-export default KXStudents;
+export default Students;
