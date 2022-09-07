@@ -54,7 +54,7 @@ form * {
 .explorebody {
   background: linear-gradient(120deg, #2980b9, #1710d5);
 }
-.contactheading {
+.contactheading1 {
   font-size: 30px;
   margin-top: 30px;
   text-align: left;
@@ -86,4 +86,14 @@ form * {
 }
 .studentheading {
   color: white;
+}
+.instructorheading {
+  font-size: 30px;
+  margin-top: 30px;
+  height: 100%;
+  text-align: left;
+  margin-bottom: 0px;
+  color: white;
+  font-style: bold;
+  margin-left: 1.5%;
 }
