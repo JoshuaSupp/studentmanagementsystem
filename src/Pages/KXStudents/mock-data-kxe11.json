@@ -7,5 +7,42 @@
     "kxparentname": "Mr.S.Kingston",
     "phone": "717868245",
     "address": "N0.42, Siri Avenue, Colombo 03"
+  },
+  {
+    "id": 2,
+    "kxname": "Monica Griffin",
+    "kxage": "11",
+    "kxclasses": "KXE11",
+    "kxparentname": "Mr.G.Griffin",
+    "phone": "716547892",
+    "address": "N0.20, Sam Avenue, Colombo 05"
+  },
+
+  {
+    "id": 3,
+    "kxname": "Olivia Greer",
+    "kxage": "12",
+    "kxclasses": "KXE11",
+    "kxparentname": "Mr.D.Greer",
+    "phone": "712654389",
+    "address": "N0.23, Sam Avenue, Colombo 07"
+  },
+  {
+    "id": 4,
+    "kxname": "Paul Kelley",
+    "kxage": "13",
+    "kxclasses": "KXE11",
+    "kxparentname": "Mr.H.S.Kelley",
+    "phone": "715264892",
+    "address": "N0.20, Freed Avenue, Colombo 07"
+  },
+  {
+    "id": 5,
+    "kxname": "Randolph Miniminter",
+    "kxage": "10",
+    "kxclasses": "KXE11",
+    "kxparentname": "Mr.S.S.Miniminter",
+    "phone": "715264892",
+    "address": "N0.20, Sidemen Avenue, Colombo 10"
   }
 ]
