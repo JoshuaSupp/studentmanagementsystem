@@ -9,17 +9,19 @@ import Sidebar from "../../Components/Sidebar/Sidebar";
 const Students = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
-    teachername: "",
-    age: "",
-    classes: "",
+    kxname: "",
+    kxage: "",
+    kxclasses: "",
+    kxparentname: "",
     phone: "",
     address: "",
   });
 
   const [editFormData, setEditFormData] = useState({
-    teachername: "",
-    age: "",
-    classes: "",
+    kxname: "",
+    kxage: "",
+    kxclasses: "",
+    kxparentname: "",
     phone: "",
     address: "",
   });
