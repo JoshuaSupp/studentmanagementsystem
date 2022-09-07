@@ -139,7 +139,7 @@ const Students = () => {
                   <th>Parent Name</th>
                   <th>Phone</th>
                   <th>Address</th>
-                  <th>A
+                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
