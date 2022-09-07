@@ -17,9 +17,16 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
+    title: "Teachers",
+    path: "/Classes",
+    icon: <AiIcons.AiOutlineLaptop />,
+    cName: "nav-text",
+  },
+  {
     title: "Classes",
     path: "/Classes",
     icon: <AiIcons.AiOutlineLaptop />,
     cName: "nav-text",
   },
+  
 ];

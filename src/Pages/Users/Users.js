@@ -2,8 +2,8 @@ import React, { useState, Fragment } from "react";
 import { nanoid } from "nanoid";
 import data from "./mock-data.json";
 import "./Users.css";
-import EditableRow from "../EditableRow";
-import ReadOnlyRow from "../ReadOnlyRow";
+import EditableRow from "./EditableRow";
+import ReadOnlyRow from "./ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
 const Explore = () => {
