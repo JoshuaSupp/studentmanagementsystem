@@ -13,7 +13,7 @@ const EditableRow = ({
           required="required"
           placeholder="Enter Student's name..."
           name="anname"
-          value={editFormData.teachername}
+          value={editFormData.anname}
           onChange={handleEditFormChange}
         ></input>
       </td>
@@ -23,7 +23,7 @@ const EditableRow = ({
           required="required"
           placeholder="Enter Student's Age..."
           name="anage"
-          value={editFormData.age}
+          value={editFormData.anage}
           onChange={handleEditFormChange}
         ></input>
       </td>
@@ -33,7 +33,7 @@ const EditableRow = ({
           required="required"
           placeholder="Enter Present Class..."
           name="anclasses"
-          value={editFormData.classes}
+          value={editFormData.anclasses}
           onChange={handleEditFormChange}
         ></input>
       </td>
@@ -43,7 +43,7 @@ const EditableRow = ({
           required="required"
           placeholder="Enter Parent Name..."
           name="anparentname"
-          value={editFormData.phone}
+          value={editFormData.anparentname}
           onChange={handleEditFormChange}
         ></input>
       </td>
@@ -53,7 +53,7 @@ const EditableRow = ({
           required="required"
           placeholder="Enter Phone Number..."
           name="phone"
-          value={editFormData.address}
+          value={editFormData.phone}
           onChange={handleEditFormChange}
         ></input>
       </td>
