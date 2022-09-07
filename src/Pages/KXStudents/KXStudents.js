@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from "react";
 import { nanoid } from "nanoid";
 import data from "./mock-data-kxe11.json";
-import "./Students.css";
+import "./KXStudents.css";
 import EditableRow from "./EditableRow";
 import ReadOnlyRow from "./ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
