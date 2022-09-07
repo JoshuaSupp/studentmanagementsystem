@@ -83,3 +83,12 @@ form * {
   margin-top: 8px;
   margin-bottom: 5%;
 }
+.adminheading {
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: left;
+  margin-bottom: 0px;
+  color: white;
+  font-style: bold;
+  margin-left: 1.5%;
+}

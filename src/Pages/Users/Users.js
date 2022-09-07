@@ -116,6 +116,10 @@ const Explore = () => {
     <div>
       <Sidebar />
 
+      <h2 class="adminheading">
+        {" "}
+        <u> Admin </u>
+      </h2>
       <div class="explorebody">
         <div className="app-container">
           <form onSubmit={handleEditFormSubmit}>
