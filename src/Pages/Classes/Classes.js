@@ -187,7 +187,7 @@ const Classes = () => {
               Add
             </button>
             <button class="clearbutton" type="reset">
-              clear
+              Clear
             </button>
           </form>
         </div>
