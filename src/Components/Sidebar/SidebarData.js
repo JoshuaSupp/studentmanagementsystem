@@ -27,7 +27,7 @@ export const SidebarData = [
   },
   {
     title: "Students",
-    path: "/Studebts",
+    path: "/Students",
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -35,12 +35,12 @@ export const SidebarData = [
     subNav: [
       {
         title: "KXE11",
-        path: "/overview/KXE11",
+        path: "/Students/KXE11",
         icon: <IoIcons.IoIosPaper />,
       },
       {
         title: "KXE12",
-        path: "/overview/KXE12",
+        path: "/Students/KXE12",
         icon: <IoIcons.IoIosPaper />,
       },
     ],
