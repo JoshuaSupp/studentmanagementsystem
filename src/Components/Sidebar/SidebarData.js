@@ -32,6 +32,12 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
+    title: "AN Students",
+    path: "/ANStudents",
+    icon: <FaIcons.FaUserGraduate />,
+    cName: "nav-text",
+  },
+  {
     title: "Classes",
     path: "/Classes",
     icon: <AiIcons.AiOutlineLaptop />,
