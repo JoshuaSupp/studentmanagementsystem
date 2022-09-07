@@ -54,14 +54,7 @@ form * {
 .explorebody {
   background: linear-gradient(120deg, #2980b9, #1710d5);
 }
-.contactheading {
-  font-size: 30px;
-  margin-top: 30px;
-  text-align: left;
-  margin-bottom: 0px;
-  color: white;
-  font-style: bold;
-}
+
 .adminform input {
   width: 50%;
   margin-bottom: 0px;
@@ -83,4 +76,27 @@ form * {
   margin-left: 0px;
   margin-top: 8px;
   margin-bottom: 5%;
+}
+.classheadings {
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: left;
+  margin-bottom: 0px;
+  color: white;
+  font-style: bold;
+  text-decoration: underline;
+  font-family: Arial;
+  margin-left: 1%;
+}
+.addclass {
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: left;
+  margin-bottom: 0px;
+  color: white;
+  font-style: bold;
+  text-decoration: underline;
+  font-family: Arial;
+  background-color: #08007b;
+  width: 11.5%;
 }
