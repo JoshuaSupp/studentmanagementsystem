@@ -6,7 +6,7 @@ import EditableRow from "./EditableRow";
 import ReadOnlyRow from "./ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
-const Teachers = () => {
+const Students = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
     teachername: "",
@@ -156,7 +156,6 @@ const Teachers = () => {
               </tbody>
             </table>
           </form>
-
           <h2 class="contactheading">Add Instructor</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
@@ -209,4 +208,4 @@ const Teachers = () => {
   );
 };
 
-export default Teachers;
+export default Students;
