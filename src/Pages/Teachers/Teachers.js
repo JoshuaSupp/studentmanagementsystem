@@ -9,17 +9,19 @@ import Sidebar from "../../Components/Sidebar/Sidebar";
 const Teachers = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
-    classname: "",
-    studentnumber: "",
-    status: "",
-    startdate: "",
+    teachername: "",
+    age: "",
+    classes: "",
+    phone: "",
+    address: "",
   });
 
   const [editFormData, setEditFormData] = useState({
-    classname: "",
-    studentnumber: "",
-    status: "",
-    startdate: "",
+    teachername: "",
+    age: "",
+    classes: "",
+    phone: "",
+    address: "",
   });
 
   const [editContactId, setEditContactId] = useState(null);
@@ -53,10 +55,11 @@ const Teachers = () => {
 
     const newContact = {
       id: nanoid(),
-      classname: addFormData.classname,
-      studentnumber: addFormData.studentnumber,
-      status: addFormData.status,
-      startdate: addFormData.startdate,
+      teachername: addFormData.teachername,
+      age: addFormData.age,
+      classes: addFormData.classes,
+      phone: addFormData.phone,
+      address: addFormData.address,
     };
 
     const newContacts = [...contacts, newContact];
@@ -68,10 +71,10 @@ const Teachers = () => {
 
     const editedContact = {
       id: editContactId,
-      classname: editFormData.classname,
-      studentnumber: editFormData.studentnumber,
-      status: editFormData.status,
-      startdate: editFormData.startdate,
+      teachername: editFormData.teachername,
+      age: editFormData.age,
+      classes: editFormData.classes,
+      address: editFormData.address,
     };
 
     const newContacts = [...contacts];
