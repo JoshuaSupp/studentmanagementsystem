@@ -8,13 +8,15 @@
   border: 1px solid #dbdbdb;
   border-radius: 5px;
   padding: 20px;
-  margin-top: 10vh;
+  margin-top: 50px;
+  margin-bottom: 0px;
   background: linear-gradient(120deg, #2980b9, #8e44ad);
+  align-items: center;
 }
 
 .div-login-logo {
-  height: 100px;
-  width: 50px;
+  height: 0px;
+  width: 0px;
   align-self: center;
 }
 
@@ -45,9 +47,17 @@ input {
 }
 .loginform {
   margin-left: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   align-items: center;
 }
 body {
   background: linear-gradient(black, #3325f2, #25b4f2);
+}
+.loginname {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
