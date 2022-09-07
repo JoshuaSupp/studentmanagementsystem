@@ -3,10 +3,10 @@ import React from "react";
 const ReadOnlyRow = ({ contact, handleEditClick, handleDeleteClick }) => {
   return (
     <tr>
-      <td>{contact.classname}</td>
-      <td>{contact.studentnumber}</td>
-      <td>{contact.status}</td>
-      <td>{contact.startdate}</td>
+      <td>{contact.fullName}</td>
+      <td>{contact.password}</td>
+      <td>{contact.phoneNumber}</td>
+      <td>{contact.email}</td>
       <td>
         <button
           type="button"
