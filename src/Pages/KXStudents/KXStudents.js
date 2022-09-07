@@ -128,7 +128,7 @@ const Students = () => {
 
       <div class="explorebody">
         <div className="app-container">
-          <h2 class="contactheading">KXE11</h2>
+          <h2>KXE12</h2>
           <form onSubmit={handleEditFormSubmit}>
             <table>
               <thead>
@@ -139,7 +139,6 @@ const Students = () => {
                   <th>Parent Name</th>
                   <th>Phone</th>
                   <th>Address</th>
-                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
@@ -163,7 +162,7 @@ const Students = () => {
               </tbody>
             </table>
           </form>
-          <h2 class="contactheading">Add Student</h2>
+          <h2 class="contactheading">Add Instructor</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
