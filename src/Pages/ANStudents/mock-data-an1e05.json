@@ -1,48 +1,11 @@
 [
   {
     "id": 1,
-    "anname": "Sam Samuel",
+    "anname": "Mark Kingston",
     "anage": "12",
-    "anclasses": "AN1E05",
-    "anparentname": "Mr.K.Samuel",
+    "anclasses": "KXE11",
+    "anparentname": "Mr.S.Kingston",
     "phone": "717868245",
-    "address": "N0.42, Mega Avenue, Colombo 05"
-  },
-  {
-    "id": 2,
-    "anname": "Joel Peter",
-    "anage": "10",
-    "anclasses": "AN1E05",
-    "anparentname": "Mr.F.Peter",
-    "phone": "715989135",
-    "address": "N0.30, Serram Avenue, Colombo 01"
-  },
-  {
-    "id": 3,
-    "anname": "Steve Marshall",
-    "anage": "9",
-    "anclasses": "AN1E05",
-    "anparentname": "Mr.R.Marshall",
-    "phone": "752346987",
-    "address": "N0.1/1, Midfield Avenue, Colombo 05"
-  },
-  {
-    "id": 4,
-    "anname": "Snopp Jack",
-    "anage": "12",
-    "anclasses": "AN1E05",
-    "anparentname": "Mr.G.Jack",
-    "phone": "71668593",
-    "address": "N0.10, Dell Avenue, Colombo 07"
-  },
-
-  {
-    "id": 5,
-    "anname": "Kevin Johnson",
-    "anage": "12",
-    "anclasses": "AN1E05",
-    "anparentname": "Mr.D.Johnson",
-    "phone": "712545658",
-    "address": "N0.10, De Silva Avenue, Colombo 07"
+    "address": "N0.42, Siri Avenue, Colombo 03"
   }
 ]
