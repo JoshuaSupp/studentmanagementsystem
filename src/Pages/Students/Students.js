@@ -6,7 +6,7 @@ import EditableRow from "./EditableRow";
 import ReadOnlyRow from "./ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
-const Students = () => {
+const Teachers = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
     teachername: "",
@@ -209,4 +209,4 @@ const Students = () => {
   );
 };
 
-export default Students;
+export default Teachers;
