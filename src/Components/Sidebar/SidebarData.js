@@ -3,6 +3,8 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 import * as FiIcons from "react-icons/fi";
+import * as GiIcons from "react-icons/gi";
+
 export const SidebarData = [
   {
     title: "Home",
@@ -19,7 +21,7 @@ export const SidebarData = [
   {
     title: "Teachers",
     path: "/Teachers",
-    icon: <AiIcons.AiOutlineLaptop />,
+    icon: <GiIcons.GiTeacher />,
     cName: "nav-text",
   },
   {
@@ -28,5 +30,4 @@ export const SidebarData = [
     icon: <AiIcons.AiOutlineLaptop />,
     cName: "nav-text",
   },
-  
 ];
