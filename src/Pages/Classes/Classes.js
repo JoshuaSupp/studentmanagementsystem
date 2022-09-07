@@ -186,7 +186,7 @@ const Classes = () => {
             <button class="addbutton" type="submit">
               Add
             </button>
-            <button class="addbutton" type="clear">
+            <button class="addbutton" type="reset">
               clear
             </button>
           </form>
