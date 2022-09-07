@@ -6,22 +6,20 @@ import EditableRow from "./EditableRow";
 import ReadOnlyRow from "./ReadOnlyRow";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
-const Students = () => {
+const KXStudents = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
-    kxname: "",
-    kxage: "",
-    kxclasses: "",
-    kxparentname: "",
+    teachername: "",
+    age: "",
+    classes: "",
     phone: "",
     address: "",
   });
 
   const [editFormData, setEditFormData] = useState({
-    kxname: "",
-    kxage: "",
-    kxclasses: "",
-    kxparentname: "",
+    teachername: "",
+    age: "",
+    classes: "",
     phone: "",
     address: "",
   });
@@ -57,10 +55,9 @@ const Students = () => {
 
     const newContact = {
       id: nanoid(),
-      kxname: addFormData.kxname,
-      kxage: addFormData.kxage,
-      kxclasses: addFormData.kxclasses,
-      kxparentname: addFormData.kxparentname,
+      teachername: addFormData.teachername,
+      age: addFormData.age,
+      classes: addFormData.classes,
       phone: addFormData.phone,
       address: addFormData.address,
     };
@@ -74,10 +71,9 @@ const Students = () => {
 
     const editedContact = {
       id: editContactId,
-      kxname: editFormData.kxname,
-      kxage: editFormData.kxage,
-      kxclasses: editFormData.kxclasses,
-      kxparentname: editFormData.kxparentname,
+      teachername: editFormData.teachername,
+      age: editFormData.age,
+      classes: editFormData.classes,
       phone: editFormData.phone,
       address: editFormData.address,
     };
@@ -97,10 +93,9 @@ const Students = () => {
     setEditContactId(contact.id);
 
     const formValues = {
-      kxname: contact.kxname,
-      kxage: contact.kxage,
-      kxclasses: contact.kxclasses,
-      kxparentname: contact.kxparentname,
+      teachername: contact.teachername,
+      age: contact.age,
+      classes: contact.classes,
       phone: contact.phone,
       address: contact.address,
     };
@@ -128,17 +123,16 @@ const Students = () => {
 
       <div class="explorebody">
         <div className="app-container">
-          <h2>KXE12</h2>
           <form onSubmit={handleEditFormSubmit}>
             <table>
               <thead>
                 <tr>
-                  <th>Student Name</th>
-                  <th>Student Age</th>
-                  <th>Present Class</th>
-                  <th>Parent Name</th>
+                  <th>Instructor Name</th>
+                  <th>Age</th>
+                  <th>Current Classes</th>
                   <th>Phone</th>
                   <th>Address</th>
+                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
@@ -162,49 +156,43 @@ const Students = () => {
               </tbody>
             </table>
           </form>
+
           <h2 class="contactheading">Add Instructor</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
                 type="text"
-                name="kxname"
+                name="teachername"
                 required="required"
-                placeholder="Enter Student's Name..."
+                placeholder="Enter Instructor's Name..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="number"
-                name="kxage"
+                name="age"
                 required="required"
-                placeholder="Enter Student's Age..."
+                placeholder="Enter Instructor's Age..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="text"
-                name="kxclasses"
+                name="classes"
                 required="required"
-                placeholder="Enter Students's Present Classes..."
+                placeholder="Enter Instructor's Ongoing Classes..."
                 onChange={handleAddFormChange}
               />
               <input
-                type="text"
-                name="kxparentname"
-                required="required"
-                placeholder="Enter Parent's Name..."
-                onChange={handleAddFormChange}
-              />
-              <input
-                type="phone"
+                type="phoneNumber"
                 name="phone"
                 required="required"
-                placeholder="Enter Student's Phone..."
+                placeholder="Enter Instructor's Phone Number..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="text"
                 name="address"
                 required="required"
-                placeholder="Enter Student's Address..."
+                placeholder="Enter Instructor's Address..."
                 onChange={handleAddFormChange}
               />
             </div>
@@ -221,4 +209,4 @@ const Students = () => {
   );
 };
 
-export default Students;
+export default KXStudents;
