@@ -139,6 +139,7 @@ const Students = () => {
                   <th>Parent Name</th>
                   <th>Phone</th>
                   <th>Address</th>
+                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
@@ -162,7 +163,7 @@ const Students = () => {
               </tbody>
             </table>
           </form>
-          <h2 class="contactheading">Add Student</h2>
+          <h2 class="studentheading">Add Student</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
