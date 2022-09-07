@@ -16,7 +16,7 @@ export const SidebarData = [
   {
     title: "Users",
     path: "/Users",
-    icon: <FiIcons.FiUsers />,
+    icon: <FaIcons.FaUserPlus />,
     cName: "nav-text",
   },
   {
@@ -28,7 +28,7 @@ export const SidebarData = [
   {
     title: "Students",
     path: "/Students",
-    icon: <AiIcons.AiFillHome />,
+    icon: <FaIcons.FaUserGraduate />,
     cName: "nav-text",
   },
   {
