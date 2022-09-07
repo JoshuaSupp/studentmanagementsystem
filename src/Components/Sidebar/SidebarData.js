@@ -26,8 +26,8 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Students",
-    path: "/Students",
+    title: "KX Students",
+    path: "/KXStudents",
     icon: <FaIcons.FaUserGraduate />,
     cName: "nav-text",
   },
