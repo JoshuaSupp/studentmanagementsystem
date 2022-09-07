@@ -35,14 +35,14 @@
     "phone": "71668593",
     "address": "N0.10, Dell Avenue, Colombo 07"
   },
-  
+
   {
     "id": 5,
-    "anname": "Joel Peter",
-    "anage": "10",
+    "anname": "Kevin Johnson",
+    "anage": "12",
     "anclasses": "AN1E05",
-    "anparentname": "Mr.F.Peter",
-    "phone": "717868245",
-    "address": "N0.30, Serram Avenue, Colombo 01"
+    "anparentname": "Mr.D.Johnson",
+    "phone": "712545658",
+    "address": "N0.10, De Silva Avenue, Colombo 07"
   }
 ]
