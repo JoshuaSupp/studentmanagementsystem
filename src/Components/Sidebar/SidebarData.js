@@ -27,15 +27,23 @@ export const SidebarData = [
   },
   {
     title: "Students",
-    path: "/Students",
-    icon: <AiIcons.AiOutlineLaptop />,
-    cName: "nav-text",
-    subNav: {
-      title: 'KXE10 Students',
-      path: '/Students/kxe'
-      
-      
-    }
+    path: "/Studebts",
+    icon: <AiIcons.AiFillHome />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        title: "KXE11",
+        path: "/overview/KXE11",
+        icon: <IoIcons.IoIosPaper />,
+      },
+      {
+        title: "KXE12",
+        path: "/overview/KXE12",
+        icon: <IoIcons.IoIosPaper />,
+      },
+    ],
   },
   {
     title: "Classes",
