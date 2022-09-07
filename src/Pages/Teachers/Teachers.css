@@ -61,7 +61,9 @@ form * {
   color: whitesmoke;
   font-style: bold;
   background-color: #08007b;
-  width: 11%;
+  width: 16%;
+  font-family: Arial;
+  text-decoration: underline;
 }
 .adminform input {
   width: 50%;
@@ -87,9 +89,10 @@ form * {
 }
 .studentheading {
   color: white;
+  font-family: Arial;
 }
 .instructorheading {
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 30px;
   height: 100%;
   text-align: left;
@@ -97,4 +100,5 @@ form * {
   color: white;
   font-style: bold;
   margin-left: 1.5%;
+  font-family: Arial;
 }
