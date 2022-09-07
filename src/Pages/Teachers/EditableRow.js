@@ -46,6 +46,8 @@ const EditableRow = ({
           value={editFormData.phone}
           onChange={handleEditFormChange}
         ></input>
+      </td>
+      <td>
         <input
           type="text"
           required="required"
