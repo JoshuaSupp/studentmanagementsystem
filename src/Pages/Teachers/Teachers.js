@@ -120,11 +120,9 @@ const Teachers = () => {
   return (
     <div>
       <Sidebar />
-
       <h2 class="instructorheading">
         <u>Instructors</u>
       </h2>
-
       <div class="explorebody">
         <div className="app-container">
           <form onSubmit={handleEditFormSubmit}>
