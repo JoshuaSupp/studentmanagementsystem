@@ -7,6 +7,7 @@ import Users from "../Users/Users";
 import Classes from "../Classes/Classes";
 import Teachers from "../Teachers/Teachers";
 import KXStudents from "../KXStudents/KXStudents";
+import ANStudents from "../ANStudents/ANStudents";
 const Home = ({ handleLogged }) => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = ({ handleLogged }) => {
         <Route exact path="/classes" component={Classes} />
         <Route exact path="/teachers" component={Teachers} />
         <Route exact path="/kxstudents" component={KXStudents} />
+        <Route exact path="/anstudents" component={ANStudents} />
         <Route exact path="/users" component={Users} />
         <Route path="/:username" component={Profile} />
       </Switch>
