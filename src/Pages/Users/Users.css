@@ -8,6 +8,7 @@
 table {
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 5%;
 }
 
 th,
@@ -56,11 +57,13 @@ form * {
 }
 .contactheading {
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 50%;
   text-align: left;
   margin-bottom: 0px;
-  color: white;
+  color: whitesmoke;
   font-style: bold;
+  background-color: #08007b;
+  width: 10%;
 }
 .adminform input {
   width: 50%;
@@ -82,4 +85,14 @@ form * {
   margin-left: 0px;
   margin-top: 8px;
   margin-bottom: 5%;
+}
+.adminheading {
+  font-size: 30px;
+  margin-top: 30px;
+  height: 100%;
+  text-align: left;
+  margin-bottom: 0px;
+  color: white;
+  font-style: bold;
+  margin-left: 1.5%;
 }

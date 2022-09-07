@@ -116,6 +116,10 @@ const Explore = () => {
     <div>
       <Sidebar />
 
+      <h2 class="adminheading">
+        {" "}
+        <u> Admin </u>
+      </h2>
       <div class="explorebody">
         <div className="app-container">
           <form onSubmit={handleEditFormSubmit}>
@@ -151,7 +155,10 @@ const Explore = () => {
             </table>
           </form>
 
-          <h2 class="contactheading">Create Admin</h2>
+          <h2 class="contactheading">
+            {" "}
+            <u> Create Admin </u>
+          </h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
