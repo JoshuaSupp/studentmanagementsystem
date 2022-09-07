@@ -100,7 +100,7 @@ const Students = () => {
       anname: contact.anname,
       anage: contact.anage,
       anclasses: contact.anclasses,
-      anparentname: contact.anparentname,
+      anparentname: contact.kxparentname,
       phone: contact.phone,
       address: contact.address,
     };
