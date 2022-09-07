@@ -155,7 +155,10 @@ const Explore = () => {
             </table>
           </form>
 
-          <h2 class="contactheading">Create Admin</h2>
+          <h2 class="contactheading">
+            {" "}
+            <u> Create Admin </u>
+          </h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
