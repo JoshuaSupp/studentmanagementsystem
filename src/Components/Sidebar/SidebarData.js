@@ -30,6 +30,12 @@ export const SidebarData = [
     path: "/Students",
     icon: <AiIcons.AiOutlineLaptop />,
     cName: "nav-text",
+    subNav: {
+      title: 'KXE10 Students',
+      path: '/Students/kxe'
+      
+      
+    }
   },
   {
     title: "Classes",
