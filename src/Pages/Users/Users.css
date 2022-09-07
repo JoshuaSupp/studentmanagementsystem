@@ -67,3 +67,19 @@ form * {
   margin-bottom: 0px;
   margin-top: 2px;
 }
+.clearbutton {
+  width: 20%;
+  height: 10%;
+  margin: 5px 0;
+  background-color: black;
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 5px;
+  font-weight: 900;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 0px;
+  margin-top: 8px;
+  margin-bottom: 5%;
+}

@@ -186,6 +186,9 @@ const Explore = () => {
             <button class="addbutton" type="submit">
               Add
             </button>
+            <button class="clearbutton" type="reset">
+              Clear
+            </button>
           </form>
         </div>
       </div>
