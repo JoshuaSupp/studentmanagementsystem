@@ -9,17 +9,19 @@ import Sidebar from "../../Components/Sidebar/Sidebar";
 const Teachers = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
-    classname: "",
-    studentnumber: "",
-    status: "",
-    startdate: "",
+    teachername: "",
+    age: "",
+    classes: "",
+    phone: "",
+    address: "",
   });
 
   const [editFormData, setEditFormData] = useState({
-    classname: "",
-    studentnumber: "",
-    status: "",
-    startdate: "",
+    teachername: "",
+    age: "",
+    classes: "",
+    phone: "",
+    address: "",
   });
 
   const [editContactId, setEditContactId] = useState(null);
@@ -53,10 +55,11 @@ const Teachers = () => {
 
     const newContact = {
       id: nanoid(),
-      classname: addFormData.classname,
-      studentnumber: addFormData.studentnumber,
-      status: addFormData.status,
-      startdate: addFormData.startdate,
+      teachername: addFormData.teachername,
+      age: addFormData.age,
+      classes: addFormData.classes,
+      phone: addFormData.phone,
+      address: addFormData.address,
     };
 
     const newContacts = [...contacts, newContact];
@@ -68,10 +71,11 @@ const Teachers = () => {
 
     const editedContact = {
       id: editContactId,
-      classname: editFormData.classname,
-      studentnumber: editFormData.studentnumber,
-      status: editFormData.status,
-      startdate: editFormData.startdate,
+      teachername: editFormData.teachername,
+      age: editFormData.age,
+      classes: editFormData.classes,
+      phone: editFormData.phone,
+      address: editFormData.address,
     };
 
     const newContacts = [...contacts];
@@ -89,10 +93,11 @@ const Teachers = () => {
     setEditContactId(contact.id);
 
     const formValues = {
-      classname: contact.classname,
-      studentnumber: contact.studentnumber,
-      status: contact.status,
-      startdate: contact.startdate,
+      teachername: contact.teachername,
+      age: contact.age,
+      classes: contact.classes,
+      phone: contact.phone,
+      address: contact.address,
     };
 
     setEditFormData(formValues);
@@ -122,10 +127,11 @@ const Teachers = () => {
             <table>
               <thead>
                 <tr>
-                  <th>Class Name</th>
-                  <th>Student Number</th>
-                  <th>Status</th>
-                  <th>Start Date</th>
+                  <th>Instructor Name</th>
+                  <th>Age</th>
+                  <th>Current Classes</th>
+                  <th>Phone</th>
+                  <th>Address</th>
                   <th>Actions</th>
                 </tr>
               </thead>
@@ -151,35 +157,42 @@ const Teachers = () => {
             </table>
           </form>
 
-          <h2 class="contactheading">Add Class</h2>
+          <h2 class="contactheading">Add Instructor</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
                 type="text"
-                name="classname"
+                name="teachername"
                 required="required"
-                placeholder="Enter Class Name..."
+                placeholder="Enter Instructor's Name..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="number"
-                name="studentnumber"
+                name="age"
                 required="required"
-                placeholder="Enter Number Of Students..."
+                placeholder="Enter Instructor's Age..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="text"
-                name="status"
+                name="classes"
                 required="required"
-                placeholder="Enter Class Status..."
+                placeholder="Enter Instructor's Ongoing Classes..."
                 onChange={handleAddFormChange}
               />
               <input
-                type="Date"
-                name="startdate"
+                type="phoneNumber"
+                name="phone"
                 required="required"
-                placeholder="Enter Class Start Date..."
+                placeholder="Enter Instructor's Phone Number..."
+                onChange={handleAddFormChange}
+              />
+              <input
+                type="text"
+                name="address"
+                required="required"
+                placeholder="Enter Instructor's Address..."
                 onChange={handleAddFormChange}
               />
             </div>
