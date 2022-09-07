@@ -57,9 +57,10 @@ const Students = () => {
 
     const newContact = {
       id: nanoid(),
-      teachername: addFormData.teachername,
-      age: addFormData.age,
-      classes: addFormData.classes,
+      kxname: addFormData.kxname,
+      kxage: addFormData.kxage,
+      kxclasses: addFormData.kxclasses,
+      kxparentname: addFormData.kxparentname,
       phone: addFormData.phone,
       address: addFormData.address,
     };
