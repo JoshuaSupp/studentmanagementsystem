@@ -159,7 +159,7 @@ const Teachers = () => {
             </table>
           </form>
 
-          <h2 class="contactheading">Add Instructor</h2>
+          <h2 class="contactheading1">Add Instructor</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
