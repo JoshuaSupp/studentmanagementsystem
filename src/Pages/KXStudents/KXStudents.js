@@ -162,7 +162,7 @@ const Students = () => {
               </tbody>
             </table>
           </form>
-          <h2 class="contactheading">Add Instructor</h2>
+          <h2 class="contactheading">Add Student</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
