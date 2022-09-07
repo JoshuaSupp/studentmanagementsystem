@@ -121,6 +121,10 @@ const Teachers = () => {
     <div>
       <Sidebar />
 
+      <h2 class="instructorheading">
+        <u>Instructors</u>
+      </h2>
+
       <div class="explorebody">
         <div className="app-container">
           <form onSubmit={handleEditFormSubmit}>
@@ -157,7 +161,7 @@ const Teachers = () => {
             </table>
           </form>
 
-          <h2 class="contactheading">Add Instructor</h2>
+          <h2 class="contactheading1">Add Instructor</h2>
           <form onSubmit={handleAddFormSubmit}>
             <div class="adminform">
               <input
