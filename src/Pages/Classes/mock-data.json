@@ -1,20 +1,13 @@
 [
   {
     "id": 1,
-    "classname": "KXE11",
-    "studentnumber": "20",
-    "status": "Ongoing",
-    "startdate": "2020-05-21"
-  },
-  {
-    "id": 2,
     "classname": "KXE12",
     "studentnumber": "20",
     "status": "Ongoing",
     "startdate": "2020-09-22"
   },
   {
-    "id": 3,
+    "id": 2,
     "classname": "AN1E02",
     "studentnumber": "20",
     "status": "Ongoing",
