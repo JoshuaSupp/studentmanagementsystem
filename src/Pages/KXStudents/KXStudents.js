@@ -97,9 +97,10 @@ const Students = () => {
     setEditContactId(contact.id);
 
     const formValues = {
-      teachername: contact.teachername,
-      age: contact.age,
-      classes: contact.classes,
+      kxname: contact.kxname,
+      kxage: contact.kxage,
+      kxclasses: contact.kxclasses,
+      kxparentname: contact.kxparentname,
       phone: contact.phone,
       address: contact.address,
     };
@@ -127,16 +128,17 @@ const Students = () => {
 
       <div class="explorebody">
         <div className="app-container">
+          <h2>KXE12</h2>
           <form onSubmit={handleEditFormSubmit}>
             <table>
               <thead>
                 <tr>
-                  <th>Instructor Name</th>
-                  <th>Age</th>
-                  <th>Current Classes</th>
+                  <th>Student Name</th>
+                  <th>Student Age</th>
+                  <th>Present Class</th>
+                  <th>Parent Name</th>
                   <th>Phone</th>
                   <th>Address</th>
-                  <th>Actions</th>
                 </tr>
               </thead>
               <tbody>
