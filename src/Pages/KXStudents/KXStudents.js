@@ -167,37 +167,44 @@ const Students = () => {
             <div class="adminform">
               <input
                 type="text"
-                name="teachername"
+                name="kxname"
                 required="required"
-                placeholder="Enter Instructor's Name..."
+                placeholder="Enter Student's Name..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="number"
-                name="age"
+                name="kxage"
                 required="required"
-                placeholder="Enter Instructor's Age..."
+                placeholder="Enter Student's Age..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="text"
-                name="classes"
+                name="kxclasses"
                 required="required"
-                placeholder="Enter Instructor's Ongoing Classes..."
+                placeholder="Enter Students's Present Classes..."
                 onChange={handleAddFormChange}
               />
               <input
-                type="phoneNumber"
+                type="text"
+                name="kxparentname"
+                required="required"
+                placeholder="Enter Parent's Name..."
+                onChange={handleAddFormChange}
+              />
+              <input
+                type="phone"
                 name="phone"
                 required="required"
-                placeholder="Enter Instructor's Phone Number..."
+                placeholder="Enter Student's Phone..."
                 onChange={handleAddFormChange}
               />
               <input
                 type="text"
                 name="address"
                 required="required"
-                placeholder="Enter Instructor's Address..."
+                placeholder="Enter Student's Address..."
                 onChange={handleAddFormChange}
               />
             </div>
