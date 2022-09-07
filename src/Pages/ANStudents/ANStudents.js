@@ -128,7 +128,7 @@ const Students = () => {
 
       <div class="explorebody">
         <div className="app-container">
-          <h2 class="studentheading">KXE12</h2>
+          <h2 class="studentheading">AN1E05</h2>
           <form onSubmit={handleEditFormSubmit}>
             <table>
               <thead>
