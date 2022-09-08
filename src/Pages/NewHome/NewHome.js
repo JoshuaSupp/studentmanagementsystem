@@ -47,20 +47,25 @@ const NewHome = () => {
         </div>
       </div>
 
+      <div class="Infotext">Count </div>
+
       <div class="row">
         <div class="column">
           <div class="box">
-            <div class="aistext"> Admins : 4 </div>
+            <div class="aistext"> Admins </div>
+            <div class="aistext"> 4 </div>
           </div>
         </div>
         <div class="column">
           <div class="box">
-            <div class="aistext"> Instructors : 4 </div>
+            <div class="aistext"> Instructors </div>
+            <div class="aistext"> 4 </div>
           </div>
         </div>
         <div class="column">
           <div class="box">
-            <div class="aistext"> Students : 4 </div>
+            <div class="aistext"> Students </div>
+            <div class="aistext"> 40 </div>
           </div>
         </div>
       </div>
