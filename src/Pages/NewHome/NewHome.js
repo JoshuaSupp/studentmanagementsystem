@@ -1,15 +1,15 @@
 import React from "react";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import "./newhome.css";
-import { ReactComponent as meulogo } from "../../assets/meulabslogo.svg";
+import { ReactComponent as Meulogo } from "../../assets/meulabslogo.svg";
 const NewHome = () => {
   return (
     <div>
       <Sidebar />
-      <div class="meulabslogo">
-       <meulogo />
+      <div className="meulabslogo">
+        <Meulogo />
       </div>
-     </div>
+    </div>
   );
 };
 
