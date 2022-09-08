@@ -1,8 +1,7 @@
 import React from "react";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import "./newhome.css";
-import { ReactComponent as Meulogo } from "../../assets/meulabslogo.svg";
-import { ReactComponent as Pd1 } from "../../assets/pd1.svg";
+
 const NewHome = () => {
   return (
     <div class="newhomebody">
