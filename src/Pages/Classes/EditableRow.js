@@ -19,11 +19,11 @@ const EditableRow = ({
       </td>
       <td>
         <input
-          type="studentnumber"
+          type="number"
           required="required"
           placeholder="Enter The Number Of Students..."
           name="studentnumber"
-          value={editFormData.address}
+          value={editFormData.studentnumber}
           onChange={handleEditFormChange}
         ></input>
       </td>
