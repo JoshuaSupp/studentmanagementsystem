@@ -18,19 +18,25 @@ const NewHome = () => {
       </div>
       <h2 class="newclasses"> New Classes </h2>
       <h2>Product Design </h2>
-      <img className="imgclass" src="" alt="" />
       <div class="row">
         <div class="column">
           <img
             src="https://meulabs.org/wp-content/uploads/2022/08/why-enjoy-img-1-1.webp"
-            alt="Snow"
+            alt=""
+          />
+        </div>
+        <h2>Software Engineering Specialization </h2>
+        <div class="column">
+          <img
+            src="https://us.123rf.com/450wm/garagestock/garagestock1605/garagestock160507748/57581527-technology-concept-software-engineering.jpg?ver=6"
+            alt=""
           />
         </div>
         <div class="column">
-          <img src="img_forest.jpg" alt="Forest" />
-        </div>
-        <div class="column">
-          <img src="img_mountains.jpg" alt="Mountains" />
+          <img
+            src="https://cdn.mos.cms.futurecdn.net/FQiMdRcDKGsgcxsMfhoXm3.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
