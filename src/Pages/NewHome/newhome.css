@@ -99,6 +99,11 @@
 }
 .aistext {
   color: white;
+  font-family: Arial;
+  font-size: 50px;
+  width: 70%;
+  text-align: center;
+  margin-top: 5%;
 }
 .box {
   align-items: center;
@@ -110,9 +115,11 @@
 }
 .Infotext {
   text-align: center;
+  margin-right: 10%;
   font-family: Arial;
   font-size: 50px;
   color: white;
   margin-top: 8%;
   margin-bottom: 5%;
+  text-decoration: underline;
 }
