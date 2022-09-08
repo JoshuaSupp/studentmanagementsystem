@@ -63,5 +63,17 @@
   min-width: 250px;
   max-height: 250px;
   margin-top: 0%;
+  margin-bottom: 20%;
+}
+.Crtext {
+  text-align: right;
+  margin-top: 0%;
+  margin-bottom: 20%;
+  width: 0%;
+}
+.imgce {
+  min-width: 250px;
+  max-height: 250px;
+  margin-top: 0%;
   margin-bottom: 20;
 }

@@ -35,10 +35,11 @@ const NewHome = () => {
             alt=""
           />
         </div>
-        <h2>Creative Expressions </h2>
+
         <div class="column">
+          <h2 class="Crtext">Creative Expressions </h2>
           <img
-            className="imgclass"
+            className="imgce"
             src="https://cdn.mos.cms.futurecdn.net/FQiMdRcDKGsgcxsMfhoXm3.jpg"
             alt=""
           />
