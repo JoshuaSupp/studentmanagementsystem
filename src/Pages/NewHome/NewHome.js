@@ -18,11 +18,21 @@ const NewHome = () => {
       </div>
       <h2 class="newclasses"> New Classes </h2>
       <h2>Product Design </h2>
-      <img
-        className="imgclass"
-        src="https://meulabs.org/wp-content/uploads/2022/08/why-enjoy-img-1-1.webp"
-        alt=""
-      />
+      <img className="imgclass" src="" alt="" />
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://meulabs.org/wp-content/uploads/2022/08/why-enjoy-img-1-1.webp"
+            alt="Snow"
+          />
+        </div>
+        <div class="column">
+          <img src="img_forest.jpg" alt="Forest" />
+        </div>
+        <div class="column">
+          <img src="img_mountains.jpg" alt="Mountains" />
+        </div>
+      </div>
     </div>
   );
 };
