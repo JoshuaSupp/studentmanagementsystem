@@ -25,6 +25,8 @@
 .imgclass {
   min-width: 250px;
   max-height: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -51,4 +53,9 @@
   .column {
     width: 100%;
   }
+}
+.Setext {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
