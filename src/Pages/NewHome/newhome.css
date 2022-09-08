@@ -22,7 +22,7 @@
   text-decoration: underline;
   color: black;
 }
-.class {
-  min-width: 100px;
-  max-height: 100px;
+.imgclass {
+  min-width: 250px;
+  max-height: 250px;
 }

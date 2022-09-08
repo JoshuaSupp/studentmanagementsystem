@@ -17,6 +17,7 @@ const NewHome = () => {
         <h2> Student Management System</h2>
       </div>
       <h2 class="newclasses"> New Classes </h2>
+      <h2>Product Design </h2>
       <img
         className="imgclass"
         src="https://meulabs.org/wp-content/uploads/2022/08/why-enjoy-img-1-1.webp"
