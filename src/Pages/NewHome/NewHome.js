@@ -6,9 +6,10 @@ const NewHome = () => {
   return (
     <div>
       <Sidebar />
-
-      <meulogo />
-    </div>
+      <div class="meulabslogo">
+       <meulogo />
+      </div>
+     </div>
   );
 };
 
