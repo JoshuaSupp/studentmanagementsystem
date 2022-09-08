@@ -14,6 +14,7 @@ const NewHome = () => {
       </div>
       <div>
         <h2 class="newclasses"> New Classes </h2>
+        
       </div>
     </div>
   );
