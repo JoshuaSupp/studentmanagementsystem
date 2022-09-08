@@ -8,12 +8,13 @@ import Classes from "../Classes/Classes";
 import Teachers from "../Teachers/Teachers";
 import KXStudents from "../KXStudents/KXStudents";
 import ANStudents from "../ANStudents/ANStudents";
+
 const Home = ({ handleLogged }) => {
   return (
     <div>
       <Header isLogged={handleLogged} />
       <Switch>
-        <Route exact path="/" component={NewHome} />
+        <Route exact path="/newhome" component={NewHome} />
         <Route exact path="/classes" component={Classes} />
         <Route exact path="/teachers" component={Teachers} />
         <Route exact path="/kxstudents" component={KXStudents} />
