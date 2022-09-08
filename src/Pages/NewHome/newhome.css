@@ -1,8 +1,8 @@
 .meulabslogo {
-  height: 250px;
-  width: 10px;
-  align-items: center;
-  margin-left: 300px;
+  height: 20%;
+  width: 30%;
+  align-items: lefts;
+  margin-left: 0px;
 }
 .stheading {
   text-align: center;
@@ -19,7 +19,7 @@
 .newclasses {
   text-align: left;
 }
-.newclassespic {
-  width: 0px;
-  
+.class {
+  min-width: 100px;
+  max-height: 100px;
 }

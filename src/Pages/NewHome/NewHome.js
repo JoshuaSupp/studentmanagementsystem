@@ -6,8 +6,9 @@ const NewHome = () => {
   return (
     <div class="newhomebody">
       <Sidebar />
-      <div class="meulabslogo">
+      <div>
         <img
+          className="meulabslogo"
           src="https://meulabs.org/wp-content/uploads/2022/08/Logo.webp"
           alt="meulabs"
         />
@@ -16,12 +17,11 @@ const NewHome = () => {
         <h2> Student Management System</h2>
       </div>
       <h2 class="newclasses"> New Classes </h2>
-      <div class="newclassespic">
-        <img
-          src="https://meulabs.org/wp-content/uploads/2022/08/why-enjoy-img-1-1.webp"
-          alt="car"
-        />
-      </div>
+      <img
+        className="class"
+        src="https://meulabs.org/wp-content/uploads/2022/08/why-enjoy-img-1-1.webp"
+        alt=""
+      />
     </div>
   );
 };
