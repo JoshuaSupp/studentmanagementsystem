@@ -14,7 +14,7 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Users",
+    title: "Admins",
     path: "/Users",
     icon: <FaIcons.FaUserPlus />,
     cName: "nav-text",
