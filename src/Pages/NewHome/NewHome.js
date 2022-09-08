@@ -21,7 +21,7 @@ const NewHome = () => {
       <div class="row">
         <div class="column">
           <img
-            className="imgclass"
+            className="imgpd"
             src="https://meulabs.org/wp-content/uploads/2022/08/why-enjoy-img-1-1.webp"
             alt=""
           />
