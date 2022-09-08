@@ -1,5 +1,5 @@
 .meulabslogo {
-  height: 20%;
+  height: 250px;
   width: 30%;
   align-items: lefts;
   margin-left: 0px;
@@ -18,8 +18,11 @@
 }
 .newclasses {
   text-align: left;
+  font-size: 40px;
+  text-decoration: underline;
+  color: black;
 }
-.class {
-  min-width: 100px;
-  max-height: 100px;
+.imgclass {
+  min-width: 250px;
+  max-height: 250px;
 }
