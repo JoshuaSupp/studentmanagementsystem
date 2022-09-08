@@ -8,3 +8,11 @@
   border: 5px solid black;
   object-fit: cover;
 }
+.stheading {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  color: whitesmoke;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
