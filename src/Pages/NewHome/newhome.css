@@ -97,10 +97,11 @@
   color: whitesmoke;
   font-size: 25px;
 }
-.admintext {
+.aistext {
+  color: white;
 }
-.adminbox {
-  margin-bottom: 50%;
+.box {
+  margin-top: 50%;
   width: 260px;
   padding: 10px;
   border: 5px solid gray;
