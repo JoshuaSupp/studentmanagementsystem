@@ -6,7 +6,7 @@ const NewHome = () => {
   return (
     <div>
       <Sidebar />
-      <div className="meulabslogo">
+      <div class="meulabslogo">
         <Meulogo />
       </div>
     </div>
