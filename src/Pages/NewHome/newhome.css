@@ -110,9 +110,9 @@
   width: 260px;
   height: 150px;
   padding: 10px;
-  border: 5px solid gray;
+  border: 5px black;
   margin: 0;
-  background-color: ;
+  background-color: #1006a4;
 }
 .Infotext {
   text-align: center;
