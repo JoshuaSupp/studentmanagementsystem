@@ -1,12 +1,8 @@
 .meulabslogo {
-  background-color: orangered;
+  height: 250px;
+  width: 10px;
   align-items: center;
-  max-width: 100%;
-  height: auto;
-  width: auto;
-  padding: 15px;
-  border: 5px solid black;
-  object-fit: cover;
+  margin-left: 300px;
 }
 .stheading {
   text-align: center;
@@ -22,4 +18,8 @@
 }
 .newclasses {
   text-align: left;
+}
+.newclassespic {
+  width: 0px;
+  
 }
