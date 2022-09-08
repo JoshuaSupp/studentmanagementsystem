@@ -10,11 +10,13 @@
 }
 .stheading {
   text-align: center;
-  text-decoration: underline;
   font-size: 60px;
   background: -webkit-linear-gradient(whitesmoke, orangered);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.newhomebody {
+  background: linear-gradient(120deg, #2980b9, #1710d5);
 }
