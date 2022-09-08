@@ -17,9 +17,10 @@ const NewHome = () => {
         <h2> Student Management System</h2>
       </div>
       <h2 class="newclasses"> New Classes </h2>
-      <h2>Product Design </h2>
+
       <div class="row">
         <div class="column">
+          <h2 class="pdtext">Product Design </h2>
           <img
             className="imgclass"
             src="https://meulabs.org/wp-content/uploads/2022/08/why-enjoy-img-1-1.webp"
@@ -30,7 +31,7 @@ const NewHome = () => {
         <div class="column">
           <h2 class="Setext">Software Engineering Specialization </h2>
           <img
-            className="imgpd"
+            className="imgse"
             src="https://us.123rf.com/450wm/garagestock/garagestock1605/garagestock160507748/57581527-technology-concept-software-engineering.jpg?ver=6"
             alt=""
           />
