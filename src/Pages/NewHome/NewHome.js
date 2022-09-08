@@ -55,13 +55,13 @@ const NewHome = () => {
         </div>
         <div class="column">
           <div class="box">
-          <div class="aistext"> Instructors : 4 </div>
+            <div class="aistext"> Instructors : 4 </div>
           </div>
         </div>
         <div class="column">
-         <div class="box">
-          <div class="aistext"> Students : 4 </div>
-          <.>
+          <div class="box">
+            <div class="aistext"> Students : 4 </div>
+          </div>
         </div>
       </div>
     </div>
