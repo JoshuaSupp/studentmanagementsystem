@@ -20,7 +20,7 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Teachers",
+    title: "Instructors",
     path: "/Teachers",
     icon: <GiIcons.GiTeacher />,
     cName: "nav-text",
