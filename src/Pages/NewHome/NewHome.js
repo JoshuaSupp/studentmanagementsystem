@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import "./newhome.css";
 import { ReactComponent as Meulogo } from "../../assets/meulabslogo.svg";
+import { ReactComponent as Pd1 } from "../../assets/pd1.jpg";
 const NewHome = () => {
   return (
     <div class="newhomebody">
@@ -14,7 +15,7 @@ const NewHome = () => {
       </div>
       <div>
         <h2 class="newclasses"> New Classes </h2>
-        
+        <Pd1 />
       </div>
     </div>
   );
