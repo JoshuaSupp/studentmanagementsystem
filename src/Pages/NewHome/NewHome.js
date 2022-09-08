@@ -47,7 +47,7 @@ const NewHome = () => {
         </div>
       </div>
 
-      <div class="Infotext">Information </div>
+      <div class="Infotext">Count </div>
 
       <div class="row">
         <div class="column">
