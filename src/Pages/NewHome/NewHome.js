@@ -46,6 +46,24 @@ const NewHome = () => {
           />
         </div>
       </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="box">
+            <div class="aistext"> Admins : 4 </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="aistext"> Instructors : 4 </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="aistext"> Students : 4 </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
