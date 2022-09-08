@@ -14,7 +14,7 @@ const Home = ({ handleLogged }) => {
     <div>
       <Header isLogged={handleLogged} />
       <Switch>
-        <Route exact path="/newhome" component={NewHome} />
+        <Route exact path="/" component={NewHome} />
         <Route exact path="/classes" component={Classes} />
         <Route exact path="/teachers" component={Teachers} />
         <Route exact path="/kxstudents" component={KXStudents} />

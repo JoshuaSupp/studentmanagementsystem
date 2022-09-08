@@ -1,13 +1,13 @@
 import React from "react";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import "./newhome.css";
+import { ReactComponent as meulogo } from "../../assets/meulogo.svg";
 const NewHome = () => {
   return (
     <div>
       <Sidebar />
-      <div class="meulogo">
-        <a href="https://meulabs.org/wp-content/uploads/2022/08/Logo.webp"></a>
-      </div>
+
+      <meulogo />
     </div>
   );
 };
