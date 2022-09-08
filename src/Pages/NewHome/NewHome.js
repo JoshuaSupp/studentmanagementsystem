@@ -28,7 +28,7 @@ const NewHome = () => {
         </div>
 
         <div class="column">
-          <h2>Software Engineering Specialization </h2>
+          <h2 class="Setext">Software Engineering Specialization </h2>
           <img
             className="imgclass"
             src="https://us.123rf.com/450wm/garagestock/garagestock1605/garagestock160507748/57581527-technology-concept-software-engineering.jpg?ver=6"
