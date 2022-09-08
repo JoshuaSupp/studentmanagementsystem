@@ -65,7 +65,7 @@ const NewHome = () => {
         <div class="column">
           <div class="box">
             <div class="aistext"> Students </div>
-            <div class="aistext"> 40 </div>
+            <div class="aistext"> 9 </div>
           </div>
         </div>
       </div>
