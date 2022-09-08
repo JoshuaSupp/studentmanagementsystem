@@ -19,9 +19,10 @@
 .newclasses {
   text-align: left;
   font-size: 40px;
+  text-decoration: underline;
+  color: black;
 }
 .class {
   min-width: 100px;
   max-height: 100px;
-  text-decoration: underline;
 }
