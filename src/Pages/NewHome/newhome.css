@@ -1,0 +1,9 @@
+.meulabslogo {
+  background-color: orangered;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  padding: 15px;
+  border: 5px solid black;
+}
