@@ -8,3 +8,13 @@
   border: 5px solid black;
   object-fit: cover;
 }
+.stheading {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 60px;
+  background: -webkit-linear-gradient(whitesmoke, orangered);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
